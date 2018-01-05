@@ -37,6 +37,8 @@ body{
 
 #b{
   margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
   display: flex;
   flex-grow: 1;
   width: 100px;
@@ -46,6 +48,8 @@ body{
 
 #c{
   margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
   display: flex;
   flex-grow: 1;
   width: 100px;
@@ -55,6 +59,8 @@ body{
 
 #d{
   margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
   display: flex;
   flex-grow: 1;
   width: 100px;
@@ -64,6 +70,8 @@ body{
 
 #e{
   margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
   display: flex;
   flex-grow: 1;
   width: 100px;
