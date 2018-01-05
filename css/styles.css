@@ -1,6 +1,5 @@
 body{
-  margin-top: 0;
-  margin-bottom: 0;
+margin: 0;
 }
 
 .head_container{
@@ -24,22 +23,51 @@ body{
 }
 
 #nav{
+    display: flex;
     top:0;
     position: fixed;
     width: 100%;
     height: 50px;
     background-color: rgba(0,0,0,.5);
     z-index: 99;
-}
-/* a {
-  background-color: powderblue;
-  transition: background-color .5s;
+    align-content:flex-end;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23pt;
+    justify-content: flex-end;
+
 }
 
-a:hover {
-  background-color: gold;
+#title{
+  display: flex;
+  padding-top: 5px;
+  padding-right: 900px;
 }
- */
+
+#mail{
+  text-decoration: none;
+  font-size: 18pt;
+  color: rgba(255, 255, 255, 0.5);
+  border-style: inset;
+  border-bottom: none;
+  border-right: none;
+  display: flex;
+  align-self: flex-end;
+
+}
+
+#git{
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18pt;
+  color: rgba(255, 255, 255, 0.5);
+  border-style: inset;
+  border-bottom: none;
+  border-right: none;
+  display: flex;
+  align-self: flex-end;
+}
+
 
 #b{
   margin: 20px;
@@ -99,7 +127,8 @@ a:hover {
   color:  rgba(0, 0, 0, 1);
 }
 
-#e{
+.e{
+  flex-flow: column;
   margin: 20px;
   margin-top: 50px;
   margin-bottom: 0;
@@ -107,14 +136,15 @@ a:hover {
   flex-grow: 1;
   width: 100px;
   height: 900px;
+  opacity: .05;
+  color: rgba(255, 255, 255, .1);
   background-color: rgba(248, 10, 6, .2);
   transition: background-color .3s;
-  color: rgba(255, 255, 255, .1);
   transition: color .3s;
+  transition: opacity: .3s;
 }
 
-#e:hover{
+.e:hover{
   background-color: rgba(248, 10, 6, .9);
   color:  rgba(0, 0, 0, 1);
-
-}
+  opacity: 1;
