@@ -113,6 +113,10 @@ margin: 0;
 
 .c{
   margin: 20px;
+  font: times;
+  font-size: 15pt;
+  text-align: center;
+  flex-flow: column;
   margin-top: 50px;
   margin-bottom: 0;
   display: flex;
@@ -122,6 +126,7 @@ margin: 0;
   background-color: rgba(20, 208, 10, .2);
   transition: background-color .3s;
   color: rgba(255, 255, 255, .1);
+  text-decoration: none;
   transition: color .3s;
 }
 
@@ -135,6 +140,10 @@ margin: 0;
   margin-top: 50px;
   margin-bottom: 0;
   display: flex;
+  font: times;
+  font-size: 15pt;
+  text-align: center;
+  flex-flow: column;
   flex-grow: 1;
   width: 100px;
   height: 900px;
